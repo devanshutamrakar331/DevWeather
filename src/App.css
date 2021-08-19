@@ -1,0 +1,27 @@
+.App {
+
+  background-color: #242B2E;
+  height: 100vh;
+  color: white;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width:320px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 23px;
+    margin-left: 28vw;
+    padding-top: 15vh;
+  }
+
+}

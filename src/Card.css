@@ -1,0 +1,45 @@
+.card {
+    background-color: aliceblue;
+    width: 60vw;
+    height: 50vh;
+    position: relative;
+
+    margin-left: 20vw;
+    margin-top: 10vh;
+    border-radius: 10px;
+    border: 2px;
+    display: inline;
+}
+
+.icon_container {
+    width: 50vw;
+    height: 50%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding-left: 100px;
+    background-color: white;
+}
+
+.icon {
+    width: 50vw;
+    height: 25vh;
+}
+
+
+.weather {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    left: 30vw;
+    bottom: 0vh;
+    ;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}

@@ -1,0 +1,79 @@
+input[type=search] {
+    height: 5vh;
+    border-radius: 6px;
+    margin-top: 15vh;
+    margin-left: 35vw;
+    width: 25vw;
+    font-size: 18px;
+    transition: 0.5s;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        'Roboto',
+        'Oxygen',
+        'Ubuntu',
+        'Cantarell',
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-left: 10px;
+
+}
+
+
+input:focus {
+    background-color: #CAD5E2;
+    outline: none;
+}
+
+button {
+    width: 6vw;
+    height: 5.5vh;
+    background-color: #F7CD2E;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        'Roboto',
+        'Oxygen',
+        'Ubuntu',
+        'Cantarell',
+        'Fira Sans',
+        'Droid Sans',
+        'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+    outline: none;
+    border-color: #F7CD2E;
+}
+
+button:hover {
+    background-color: #F4BE2C;
+    transition: 0.5s;
+}
+
+@media (max-width:320px) {
+    input[type=text] {
+        width: 55vw;
+        height: 4vh;
+        margin-top: 10vh;
+        margin-left: 10vw;
+        font-size: 12px;
+
+    }
+
+    button {
+        width: 20vw;
+        height: 5.1vh;
+
+        font-size: 14px;
+        border-radius: 7px;
+    }
+
+}
